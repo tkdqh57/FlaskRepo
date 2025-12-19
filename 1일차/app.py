@@ -5,6 +5,7 @@ app = Flask(__name__)
 @app.route("/")
 def index():
     users = [
+        {"username": "admin", "name": "Sangbo"},
         {"username": "traveler", "name": "Alex"},
         {"username": "photograpger", "name": "Sam"},
         {"username": "gourmet", "name": "Chris"}
